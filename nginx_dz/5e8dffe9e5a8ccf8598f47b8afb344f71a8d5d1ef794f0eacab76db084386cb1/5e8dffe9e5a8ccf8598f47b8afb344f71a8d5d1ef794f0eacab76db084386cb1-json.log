@@ -1,0 +1,21 @@
+{"log":"/docker-entrypoint.sh: /docker-entrypoint.d/ is not empty, will attempt to perform configuration\n","stream":"stdout","time":"2023-01-09T05:42:24.604041288Z"}
+{"log":"/docker-entrypoint.sh: Looking for shell scripts in /docker-entrypoint.d/\n","stream":"stdout","time":"2023-01-09T05:42:24.604123548Z"}
+{"log":"/docker-entrypoint.sh: Launching /docker-entrypoint.d/10-listen-on-ipv6-by-default.sh\n","stream":"stdout","time":"2023-01-09T05:42:24.60558437Z"}
+{"log":"10-listen-on-ipv6-by-default.sh: info: Getting the checksum of /etc/nginx/conf.d/default.conf\n","stream":"stdout","time":"2023-01-09T05:42:24.610428421Z"}
+{"log":"10-listen-on-ipv6-by-default.sh: info: Enabled listen on IPv6 in /etc/nginx/conf.d/default.conf\n","stream":"stdout","time":"2023-01-09T05:42:24.617359604Z"}
+{"log":"/docker-entrypoint.sh: Launching /docker-entrypoint.d/20-envsubst-on-templates.sh\n","stream":"stdout","time":"2023-01-09T05:42:24.617608074Z"}
+{"log":"/docker-entrypoint.sh: Launching /docker-entrypoint.d/30-tune-worker-processes.sh\n","stream":"stdout","time":"2023-01-09T05:42:24.620751261Z"}
+{"log":"/docker-entrypoint.sh: Configuration complete; ready for start up\n","stream":"stdout","time":"2023-01-09T05:42:24.622532774Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: using the \"epoll\" event method\n","stream":"stderr","time":"2023-01-09T05:42:24.628526371Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: nginx/1.23.3\n","stream":"stderr","time":"2023-01-09T05:42:24.628541869Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) \n","stream":"stderr","time":"2023-01-09T05:42:24.628546897Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: OS: Linux 5.15.0-56-generic\n","stream":"stderr","time":"2023-01-09T05:42:24.628551625Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576\n","stream":"stderr","time":"2023-01-09T05:42:24.628555883Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker processes\n","stream":"stderr","time":"2023-01-09T05:42:24.628577085Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 29\n","stream":"stderr","time":"2023-01-09T05:42:24.628806862Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 30\n","stream":"stderr","time":"2023-01-09T05:42:24.628946993Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 31\n","stream":"stderr","time":"2023-01-09T05:42:24.62910419Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 32\n","stream":"stderr","time":"2023-01-09T05:42:24.629183581Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 33\n","stream":"stderr","time":"2023-01-09T05:42:24.629375137Z"}
+{"log":"2023/01/09 05:42:24 [notice] 1#1: start worker process 34\n","stream":"stderr","time":"2023-01-09T05:42:24.629753954Z"}
+{"log":"172.17.0.1 - - [09/Jan/2023:05:42:28 +0000] \"GET / HTTP/1.1\" 200 122 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36\" \"-\"\n","stream":"stdout","time":"2023-01-09T05:42:28.478325626Z"}
