@@ -2,6 +2,7 @@
 
 
 ```json
+POST "http://127.0.0.1:7070/api/sensors/":
 {   
   "name": "Датчик 1",
   "description": "На кухне."
